@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Animated Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-text">
+            <h2>Hello, I'm <span>ANCHAL RAI</span></h2>
+            <h3 id="typing-text"></h3>
+            <p>I build beautiful, functional, and responsive websites for individuals and businesses.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="home-img fade-in">
+            <img src="profile.jpeg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about fade-in">
+        <h2>About Me</h2>
+        <p>Hello! I am a passionate web developer with experience in building responsive and user-friendly websites. My expertise includes HTML, CSS, JavaScript, and modern frameworks. I love creating clean code and attractive designs that provide an exceptional user experience.</p>
+        
+        <h3>Education
+        </h3>
+        <ul>
+            <li>Bachelor's Degree in Computer Science (BCA) </li>
+            <li>Master's Degree in Computer Science (MCA) </li>
+            <li>Certifications in Web Development & Design,and Python from ducat</li>
+        </ul>
+        
+        <h3>Learning Experience</h3>
+        <ul>
+            <li>Worked on projects including Zoom Clone,Jarvis personal Ai assistant,portfolios,tic-tac-toe game,Stopwatch,Landing responsive webpages</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects fade-in">
+        <h2>My Projects</h2>
+        <div class="project-container">
+            <div class="project-card hover-effect">
+                <img src="project1.png" alt="Project 1">
+                <h4>Jarvis personal AI assistant</h4>
+                <p>A personal Jarvis AI is an intelligent virtual assistant that automates tasks, answers queries, and provides real-time information through voice and text interaction..</p>
+            </div>
+            <div class="project-card hover-effect">
+                <img src="project2.png" alt="Project 2">
+                <h4>Zoom Clone website</h4>
+                <p>Zoom Clone is a video conferencing web app built with Agora SDK, enabling real-time video, audio, and chat communication</p>
+            </div>
+            <div class="project-card hover-effect">
+                <img src="project3.png" alt="Project 3">
+                <h4>Responsive Landing Page</h4>
+                <p>A fully responsive landing page designed to adapt seamlessly across devices, offering a clean layout, engaging visuals, and user-friendly navigation.</p>
+            </div>
+            <div class="project-card hover-effect">
+                <img src="project4.png" alt="Project 4">
+                <h4>Portfolio</h4>
+                <p>A modern personal portfolio website showcasing skills, projects, and achievements with a clean design and responsive layout for all devices</p>
+            </div>
+            <div class="project-card hover-effect">
+                <img src="project5.png" alt="Project 5">
+                <h4>Stopwatch</h4>
+                <p>A simple and interactive stopwatch web app with start, pause, reset, and lap time features, designed for accurate time tracking.</p>
+            </div>
+            <div class="project-card hover-effect">
+                <img src="project6.png" alt="Project 6">
+                <h4>Tic-tac-toe Game</h4>
+                <p>An interactive Tic Tac Toe game where players can compete against each other or an AI, featuring a responsive design and smooth gameplay.</p>
+            </div>
+            <div class="project-card hover-effect">
+                <img src="project7.png" alt="Project 7">
+                <h4>Weather  App </h4>
+                <p>A responsive weather application that fetches real-time weather data for any location, displaying temperature, conditions, and dynamic backgrounds based on the city."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact fade-in">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Anchal Rai. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,24 +1,29 @@
 # PRODIGY_WD_04
-Tic-Tac-Toe Game
+Personal Portfolio Website
 
-This project is a Tic-Tac-Toe web application built using HTML, CSS, and JavaScript. Users can play against another player or an AI opponent in an interactive and engaging interface.
+This project is a personal portfolio website built using HTML, CSS, and JavaScript. It showcases your skills, projects, and achievements in a clean, modern, and responsive design.
 
 Features:
 
-Play 2-player mode or against a computer AI.
+Showcases projects with descriptions, screenshots, and links.
 
-Tracks and displays player turns.
+About Me section with personal details, skills, and experience.
 
-Automatically checks for winning conditions and declares the winner.
+Contact form to allow visitors to reach you directly.
 
-Responsive design for desktop, tablet, and mobile screens.
+Responsive design for desktops, tablets, and mobile devices.
 
-Interactive UI with start button and animations for wins.
+Smooth navigation with interactive menus and scroll effects.
+
+Clean, professional, and visually appealing layout.
 
 Technologies Used:
 
-HTML – to structure the game board and interface elements.
+HTML – for structuring the website.
 
-CSS – to style the board, buttons, and animations.
+CSS – for styling, layout, and responsive design.
 
-JavaScript – to handle game logic, player interactions, and win detection.
+JavaScript – for interactive elements and smooth user experience.
+
+
+
